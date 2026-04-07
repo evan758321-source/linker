@@ -255,4 +255,8 @@ async def on_ready():
         type=discord.ActivityType.watching, name="device links"
     ))
 
-bot.run(DISCORD_TOKEN)
+def start():
+    bot.run(DISCORD_TOKEN)
+
+if __name__ == "__main__":
+    start()
